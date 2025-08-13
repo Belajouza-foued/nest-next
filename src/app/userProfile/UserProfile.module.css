@@ -1,0 +1,14 @@
+.containerProfile {
+    background-color: #ccc;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+ margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+ height: 50vh;
+ position: relative; /* prend toute la hauteur de la fenêtre */
+ top: 100px;
+}

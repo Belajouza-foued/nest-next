@@ -1,0 +1,44 @@
+.Name {
+border: 2px solid #ccc;
+width: 70%;
+border-radius: 10px;
+padding-top: 5px;
+outline: none;
+}
+.Name::placeholder {
+    color: #ccc;
+    padding-left: 15px;
+    font-size: 18px;
+     }
+     .Name:focus {
+        color: #ccc;
+     }
+     @media screen and (max-width: 600px) {
+        .container {
+            width: 50vw;
+            height: 50vh;
+        }
+        
+     }
+.container {
+   width: 350px;
+  height: 350px;
+  margin: auto; 
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  line-height: 1.5;
+  gap: 10px;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 25px;
+       }
+       .form {
+        height: 100vh;
+        margin-top: 100px;
+        
+       }
